@@ -1,0 +1,38 @@
+.border{
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 500px;
+    height: 600px;
+}
+.title{
+    border: 0.1px solid #5DADE2;
+    text-align: center;
+    background-color: #5DADE2;
+}
+.form{
+    border: 1px solid white;
+    padding: 20px;
+    padding-left: 30px;
+    
+}
+.form input[type="text"] {
+    margin-bottom: 20px;
+    width: 430px;
+    height: 30px;
+}
+.form select{
+    margin-bottom: 20px;
+    width: 438px;
+    height: 36px;
+}
+
+.button{
+    border: 0px;
+    width: fit-content;
+    margin: 0px auto;
+}
+.button input{
+    border: 0px;
+    width: 150px;
+    height: 30px;
+}

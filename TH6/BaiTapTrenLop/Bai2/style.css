@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+.borderpage{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+header{
+    background-color: #fcc;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+}
+#Hue{
+    width: 33.3%;
+    text-align: justify;
+    background-color: #979A9A;
+    float: left;
+}
+#SaiGon{
+    width: 33.3%;
+    float: left;
+    text-align: justify;
+    background-color: #B3B6B7;
+    float: left;
+}
+#HaNoi{
+    width: 33.3%;
+    float: left;
+    text-align: justify;
+    background-color: #D0D3D4;
+    float: left;
+}
+footer{
+    background-color: #fcc;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    line-height: 10px;
+}
+#Hue p,#SaiGon p,#HaNoi p{
+    padding: 20px;
+    margin: 0px;
+}
+#Hue h4,#SaiGon h4,#HaNoi h4{
+    padding-left: 20px;
+    margin: 0px;
+}

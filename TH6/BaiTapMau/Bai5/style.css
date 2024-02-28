@@ -1,0 +1,27 @@
+.Container
+{
+    border: 3px solid blue;
+    width: 900px;
+    margin: auto;
+}
+.item{
+    border: 3px solid #666;
+    margin: 12px 6px;
+    padding: 12px 6px;
+    background-color: #eec0ee;
+}
+p{
+    text-align: justify;
+}
+#fruit{
+    width: 46%;
+    float: left;
+}
+#computer{
+    width: 46%;
+    float: right;
+}
+#stationary{
+    width: 97%;
+    clear: both;
+}

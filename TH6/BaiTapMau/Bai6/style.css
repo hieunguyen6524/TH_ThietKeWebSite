@@ -1,0 +1,12 @@
+.border{
+    /* border: 1px solid black; */
+    width: 650px;
+    height: 330px;
+    margin: 0px auto;
+}
+.border h1{
+    text-align: center;
+}
+.border p{
+    text-align: justify;
+}

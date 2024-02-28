@@ -1,0 +1,17 @@
+#Wrapper{
+    width: 960px;
+    margin: auto;
+    border: 1px solid black;
+    height: 600px;
+}
+#Tren{
+    background-color: green;
+    width: 960px;
+    height: 30%;
+}
+#Duoi{
+    background-color: blue;
+    width: 960px;
+    height: 70%;
+
+}

@@ -1,0 +1,17 @@
+hr.dotted
+{
+    border: none;
+    border-top: 1px dotted #000; /* Màu sắc và kiểu của dấu chấm */
+    height: 1px; /* Độ dày của đường */
+    width: 100%; /* Chiều rộng của đường */
+    margin: 20px auto; /* Căn giữa theo chiều ngang và có khoảng cách từ margin */
+}
+.header{
+    /* border: 0px solid; */
+    text-align: center;
+    background-color: aquamarine;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(128, 128, 128,0.5);
+}

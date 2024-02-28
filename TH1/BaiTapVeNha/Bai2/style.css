@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    position: relative;
+    border: 0px;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.toan{
+    position: absolute;
+    border: 2px solid black;
+    background-color: pink;
+    top: 200px;
+    left: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+.ly{
+    position: absolute;
+    border: 2px solid black;
+    background-color: pink;
+    top: 200px;
+    right: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+.hoa{
+    position: absolute;
+    border: 2px solid black;
+    background-color: pink;
+    bottom: 200px;
+    left: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+.anh{
+    position: absolute;
+    border: 2px solid black;
+    background-color: pink;
+    bottom: 200px;
+    right: 100px;
+    width: 200px;
+    text-align: center;
+}

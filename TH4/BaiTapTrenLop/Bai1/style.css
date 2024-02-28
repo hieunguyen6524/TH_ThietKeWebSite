@@ -1,0 +1,23 @@
+.border{
+    border: 2px solid black;
+    width: fit-content;
+    margin: 10px auto;
+}
+table,td,th{
+    /* border: 2px solid red; */
+    /* border-collapse: collapse; */
+}
+th{
+    text-align: center;
+    color: blue;
+}
+td{
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.formdc_st{
+    width: 400px;
+    height: 100px;
+}

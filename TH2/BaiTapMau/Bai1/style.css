@@ -1,0 +1,7 @@
+.border{
+    border: 2px dashed purple;
+    width: 50%;
+    background-color: rgb(221, 160, 221,0.3);
+    margin: 10px auto;
+    
+}

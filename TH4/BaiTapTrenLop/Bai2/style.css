@@ -1,0 +1,11 @@
+.boder{
+    border: 2px solid black;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    background-image: url(images/flat-beer-background_23-2147741393.jpg);
+}
+td{
+    color: blue;
+    font-weight:bold ;
+}

@@ -1,0 +1,9 @@
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\bin\HelloWord.dll.config
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\bin\HelloWord.dll
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\bin\HelloWord.pdb
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\bin\HelloWord.xml
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\obj\Debug\HelloWord.Resources.resources
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\obj\Debug\HelloWord.vbproj.GenerateResource.Cache
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\obj\Debug\HelloWord.dll
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\obj\Debug\HelloWord.xml
+E:\LuuDuLieuSinhVien\NguyenTrongHieu_2001221402\BaiTapMau\Bai1\HelloWord\HelloWord\obj\Debug\HelloWord.pdb

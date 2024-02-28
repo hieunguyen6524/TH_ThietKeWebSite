@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="" class="border">
+        <h4>Chọn địa chỉ nhận hàng</h4>
+        <div class="radio_container">
+            <div class="radio_box">
+                <img src="images/icon-nk-delivery.svg" alt="">
+                <label for="nh_tn"><p>NHẬN HÀNG TẠI NHÀ</p></label>
+                <input type="radio" name="nhanhang" id="nh_tn">
+            </div>
+            <div class="radio_box">
+                <img src="images/icon-nk-atstore.svg" alt="">
+                <label for="nh_tt"><p>NHẬN HÀNG TẠI NHÀ</p></label>
+                <input type="radio" name="nhanhang" id="nh_tt">
+            </div>
+        </div>
+        <div class="radio_container">
+            <div class="text_box">
+                <label for="hoten">Họ và tên <span>(*)</span></label><br>
+                <input type="text" name="hoten" id="hoten">
+            </div>
+            <div class="text_box">
+                <label for="sdt">Số điện thoại <span>(*)</span></label><br>
+                <input type="number" name="sdt" id="sdt">
+            </div>
+        </div>
+
+        <div class="radio_container">
+            <div class="text_box">
+                <label for="email">Email</span></label><br>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="text_box">
+                <label for="tinh_tp">Tỉnh/ Thành Phố <span>(*)</span></label>
+                <select name="tinh_tp" id="tinh_tp">
+                    <optgroup label="Chọn tỉnh/ Thành phố của bạn">
+                        <option value="An Giang">An Giang</option>
+                        <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
+                        <option value="Bắc Giang">Bắc Giang</option>
+                        <option value="Bắc Kạn">Bắc Kạn</option>
+                        <option value="Bạc Liêu">Bạc Liêu</option>
+                        <option value="Bắc Ninh">Bắc Ninh</option>
+                        <option value="Bến Tre">Bến Tre</option>
+                        <option value="Bình Định">Bình Định</option>
+                        <option value="Bình Dương">Bình Dương</option>
+                        <option value="Bình Phước">Bình Phước</option>
+                        <option value="Bình Thuận">Bình Thuận</option>
+                        <option value="Cà Mau">Cà Mau</option>
+                        <option value="Cần Thơ">Cần Thơ</option>
+                        <option value="Cao Bằng">Cao Bằng</option>
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Đắk Lắk">Đắk Lắk</option>
+                        <option value="Đắk Nông">Đắk Nông</option>
+                        <option value="Điện Biên">Điện Biên</option>
+                        <option value="Đồng Nai">Đồng Nai</option>
+                        <option value="Đồng Tháp">Đồng Tháp</option>
+                        <option value="Gia Lai">Gia Lai</option>
+                        <option value="Hà Giang">Hà Giang</option>
+                        <option value="Hà Nam">Hà Nam</option>
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                        <option value="Hà Tĩnh">Hà Tĩnh</option>
+                        <option value="Hải Dương">Hải Dương</option>
+                        <option value="Hải Phòng">Hải Phòng</option>
+                        <option value="Hậu Giang">Hậu Giang</option>
+                        <option value="Hòa Bình">Hòa Bình</option>
+                        <option value="Hưng Yên">Hưng Yên</option>
+                        <option value="Khánh Hòa">Khánh Hòa</option>
+                        <option value="Kiên Giang">Kiên Giang</option>
+                        <option value="Kon Tum">Kon Tum</option>
+                        <option value="Lai Châu">Lai Châu</option>
+                        <option value="Lâm Đồng">Lâm Đồng</option>
+                        <option value="Lạng Sơn">Lạng Sơn</option>
+                        <option value="Lào Cai">Lào Cai</option>
+                        <option value="Long An">Long An</option>
+                        <option value="Nam Định">Nam Định</option>
+                        <option value="Nghệ An">Nghệ An</option>
+                        <option value="Ninh Bình">Ninh Bình</option>
+                        <option value="Ninh Thuận">Ninh Thuận</option>
+                        <option value="Phú Thọ">Phú Thọ</option>
+                        <option value="Phú Yên">Phú Yên</option>
+                        <option value="Quảng Bình">Quảng Bình</option>
+                        <option value="Quảng Nam">Quảng Nam</option>
+                        <option value="Quảng Ngãi">Quảng Ngãi</option>
+                        <option value="Quảng Ninh">Quảng Ninh</option>
+                        <option value="Quảng Trị">Quảng Trị</option>
+                        <option value="Sóc Trăng">Sóc Trăng</option>
+                        <option value="Sơn La">Sơn La</option>
+                        <option value="Tây Ninh">Tây Ninh</option>
+                        <option value="Thái Bình">Thái Bình</option>
+                        <option value="Thái Nguyên">Thái Nguyên</option>
+                        <option value="Thanh Hóa">Thanh Hóa</option>
+                        <option value="Thừa Thiên-Huế">Thừa Thiên-Huế</option>
+                        <option value="Tiền Giang">Tiền Giang</option>
+                        <option value="Trà Vinh">Trà Vinh</option>
+                        <option value="Tuyên Quang">Tuyên Quang</option>
+                        <option value="Vĩnh Long">Vĩnh Long</option>
+                        <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                        <option value="Yên Bái">Yên Bái</option>
+                    </optgroup> 
+                </select>
+            </div>
+        </div>
+
+        <div class="radio_container">
+            <div class="text_box">
+                <label for="quan_huyen">Quận/ Huyện <span>(*)</span></label>
+                <select name="quan_huyen" id="quan_huyen">
+                    <optgroup label="Chọn Quận/ Huyện">
+                        <optgroup label="TP. Hồ Chí Minh">
+                            <option value="quandist1">Quận 1</option>
+                            <option value="quandist2">Quận 2</option>
+                            <option value="quandist3">Quận 3</option>
+                            <option value="quandist4">Quận 4</option>
+                            <option value="quandist5">Quận 5</option>
+                            <option value="quandist6">Quận 6</option>
+                            <option value="quandist7">Quận 7</option>
+                            <option value="quandist8">Quận 8</option>
+                            <option value="quandist9">Quận 9</option>
+                            <option value="quandist10">Quận 10</option>
+                            <option value="quandist11">Quận 11</option>
+                            <option value="quandist12">Quận 12</option>
+                            <option value="quanthuduc">Quận Thủ Đức</option>
+                            <option value="quanbinhthanh">Quận Bình Thạnh</option>
+                            <option value="quanphunhuan">Quận Phú Nhuận</option>
+                            <option value="quanbinhtan">Quận Bình Tân</option>
+                            <option value="quanbinhchanh">Quận Bình Chánh</option>
+                            <option value="quanganhien">Quận Gò Vấp</option>
+                            <option value="quanhoocmon">Quận Hóc Môn</option>
+                            <option value="quanbinhthuy">Quận Bình Thủy</option>
+                            <option value="quancuchi">Quận Củ Chi</option>
+                            <option value="quanninhkieu">Quận Ninh Kiều</option>
+                        </optgroup> 
+                    </optgroup>
+                </select>
+            </div>
+            <div class="text_box">
+                <label for="phuong_xa">Phường/ Xã <span>(*)</span></label>
+                <select name="phuong_xa" id="phuong_xa">
+                    <optgroup label="Chọn phường/ Xã">
+                        <optgroup label="Quận 1">
+                            <option value="phuong1">Phường 1</option>
+                            <option value="phuong2">Phường 2</option>
+                            <option value="phuong3">Phường 3</option>
+                        </optgroup>
+                        <optgroup label="Quận 2">
+                            <option value="phuong4">Phường 4</option>
+                            <option value="phuong5">Phường 5</option>
+                            <option value="phuong6">Phường 6</option>
+                        </optgroup>
+                        <optgroup label="Quận 5">
+                            <option value="phuong7">Phường 7</option>
+                            <option value="phuong8">Phường 8</option>
+                            <option value="phuong9">Phường 9</option>
+                        </optgroup>
+                        <optgroup label="Quận 8">
+                            <option value="phuong10">Phường 10</option>
+                            <option value="phuong11">Phường 11</option>
+                            <option value="phuong12">Phường 12</option>
+                        </optgroup>
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+        <div class="dc">
+            <label for="dc">Số nhà/ Tên đường <span>(*)</span></label><br>
+            <input type="text" name="dc" id="dc">
+        </div>
+        <div>
+            <input type="checkbox" name="check1" id="check1">
+            <label for="check1">Sử dụng thông tin này để đăng ký tài khoản mua hàng</label>
+        </div>
+        <br>
+        <div class="comment">
+            <label for="comment">Để lại lời nhắn cho Nguyễn Kim</label><br>
+            <input type="text" name="comment" id="comment">
+        </div>
+        <h4>Chọn hình thức thanh toán</h4>
+        <div class="radio_container">
+            <div class="radio_box_mini">
+                <img src="images/icon-payment-cod.svg" alt="">
+                <label for="cod" class="radiobox"><p>Thanh toán khi nhận hàng</p></label>
+                <input type="radio" name="httt" id="cod">
+            </div>  
+            <div class="radio_box_mini">
+                <img src="images/icon-payment-atm.svg" alt="">
+                <label for="atm" class="radiobox"><p>Thẻ ATM/Internet banking</p></label>
+                <input type="radio" name="httt" id="atm">
+            </div>  
+            <div class="radio_box_mini">
+                <img src="images/icon-payment-credit.svg" alt="">
+                <label for="credit" class="radiobox"><p>Thẻ tín dụng</p></label>
+                <input type="radio" name="httt" id="credit">
+            </div>  
+        </div>
+        <br>
+        <div>
+            <div class="checkbox">
+                <input type="checkbox" name="check2" id="check2">
+                <label for="check2">Bạn muốn sử dụng dịch vụ lắp đặt</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="check3" id="check3">
+                <label for="check3">Tôi đồng ý <u style="color: red;">thỏa thuận bảo mật và chính sách mua hàng</u></label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="check4" id="check4">
+                <label for="check4">yêu cầu xuất hóa đơn GTGT cho hơn hàng này</label>
+            </div>
+        </div>
+        <br>
+        <div class="thanhtoan">
+            <input type="button" value="THANH TOÁN >">
+        </div>
+    </form>
+</body>
+</html>

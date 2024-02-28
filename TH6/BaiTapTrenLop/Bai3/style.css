@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+.borderpage{
+    width: 1000px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+header{
+    background-color: #D0D3D4;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+footer{
+    background-color: #D0D3D4;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    clear: both;
+}
+#Banner{
+    background-color: #A4DFD3;
+    width: 100%;
+    float: left;
+}
+#Navigation{
+    background-color: #92BCB4;
+    width: 100%;
+    float: left;
+}
+#menu{
+    background-color: #979A9A;
+    width: 33%;
+    height: 300px;
+    float: left;
+}
+#content{
+    background-color: #B3B6B7;
+    width: 33%;
+    height: 300px;
+    float: left;
+}
+#qc{
+    background-color: #BDC3C7;
+    width: 34%;
+    height: 300px;
+    float: left;
+}
+#menu p, #content p, #qc p{
+    padding: 10px;
+    margin: 0px;
+}

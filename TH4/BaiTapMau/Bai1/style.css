@@ -1,0 +1,37 @@
+table,td,th
+{
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    border-collapse:collapse ;
+
+}
+
+.form td{
+    text-align: left;
+    width: 150px; 
+    height: 50px;
+    
+}
+
+.form{
+    border: 1px solid #666;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 0px;
+} 
+.form th{
+    text-align: left;
+    background-color: #ccc;
+    width: 620px;
+    height: 50px;
+}
+select{
+    width: 628px; 
+    height: 50px;
+    
+}
+input{
+    width: 620px;
+    height: 50px;
+}

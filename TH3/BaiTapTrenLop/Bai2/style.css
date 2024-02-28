@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bordermaster{
+    width: 1200px;
+    margin: 0px auto;
+}
+.borderchild{
+    text-align: justify;
+    width: 800px;
+    float: left;
+    background-color: #FCF;
+    padding: 20px;
+}
+.TinLQ{
+    margin: 0px auto;
+    width: fit-content;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding-right: 30px;
+    width: 380px;
+    height: 225px;
+}

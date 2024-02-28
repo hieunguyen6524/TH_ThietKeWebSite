@@ -1,0 +1,25 @@
+
+p img{
+  border: 2px solid white;
+}
+/* Khi rơ chuột vào sẽ đổi màu khung bên ngoài */
+p img:hover{
+  border: 2px solid red;
+}
+.border{
+  border: 1px solid black;
+  box-shadow: 1px;
+  margin: 10px auto;
+  max-width: fit-content;
+  padding: 3px;
+}
+u{
+  text-decoration-line:underline ;
+  text-decoration-color: red;
+  text-decoration-style: dashed;
+  color: red;
+}
+/*Đổi màu cho các nút ở bên ngoài*/
+li::marker{
+  color: red;
+}

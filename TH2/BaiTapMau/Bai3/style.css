@@ -1,0 +1,22 @@
+img{
+    align-items: center;
+    vertical-align: middle;
+}
+a{
+    position: relative;
+    left: 250px;
+    text-decoration: none;
+}
+table,td{
+    margin: 10px auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+
+}
+.square li{
+    list-style-type: square;
+}
+
+.fan li{
+    list-style-image: url(image/pinwheel16px.png);
+}
