@@ -13,15 +13,3 @@ body{
     background-color: #FCF;
     padding: 20px;
 }
-.TinLQ{
-    margin: 0px auto;
-    width: fit-content;
-}
-table{
-    border-collapse: collapse;
-}
-td{
-    padding-right: 30px;
-    width: 380px;
-    height: 225px;
-}

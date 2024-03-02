@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    height: 1200px;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    margin: 20px 35%;
+}
+.title{
+    font-size: large;
+    font-weight: bolder;
+    width: fit-content;
+    text-align: center;
+
+}

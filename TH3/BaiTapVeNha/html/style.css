@@ -1,0 +1,20 @@
+.border{
+    border: 0px;
+    margin: 10px auto;
+    width: fit-content;
+}
+caption{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+table{
+    border-spacing: 30px;
+}
+td{
+    width: 230px;
+}
+.GiaSP{
+    color: red;
+    font-weight: bold;
+}
