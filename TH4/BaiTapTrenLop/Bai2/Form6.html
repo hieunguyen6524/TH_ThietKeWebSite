@@ -8,70 +8,75 @@
 </head>
 <body>
     <div class="boder">
-        <table>
-            <tr>
-                <th colspan="3" style="color: red;">
-                    <h1 >Thông Tin Khách Hàng</h1>
-                </th>
-            </tr>
-            <tr>
-                <td style="text-align: center;"><label for="customer_name">Tên Khách Hàng: </label></td>
-                <td><input type="text" name="customer_name" id="customer_name" style="width: 300px;"></td>
-            </tr>
-            <tr>
-                <td style="text-align: center;"><label for="status">Tình Trạng: </label></td>
-                <td>
-                    <select name="status" id="status">
-                        <option value="1">Khách Hàng Mới</option>
-                        <option value="1">Khách Hàng VIP</option>
-                        <option value="1">Khách Hàng Thành Viên</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="id_customer">Mã KH: </label>
-                    <input type="text" name="id_customer" id="id_customer" style="width: 100px;">
-                </td>
-            </tr>
-            <tr>
-                <td rowspan="4" style="vertical-align: top; text-align: center;"><label for="khu">Chọn Khu: </label></td>
-                <td>
-                    <input type="radio" name="khu" id="khachsan">
-                    <label for="khachsan">Khách Sạn</label>
-                    <input type="radio" name="khu" id="karaoke">
-                    <label for="karaoke">Karaoke</label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="id_rom">Số Phòng: </label>
-                    <input type="text" name="id_rom" id="id_rom" style="width: 153px;">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="radio" name="khu" id="bar_club">
-                    <label for="bar_club">Bar Club</label>
-                    <input type="radio" name="khu" id="coffee">
-                    <label for="coffee">Coffee</label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="so_ban">Số Bàn: </label>
-                    <input type="text" name="so_ban" id="so_ban">
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: center;"><label for="request"></label>Yêu Cầu: </td>
-                <td><input type="text" name="request" id="request" style="width: 300px; height: 50px;"></td>
-            </tr>
-            <tr>
-                <td colspan="3" style="text-align: center;"><input type="button" value="GỬI THÔNG TIN"></td>
-            </tr>
-            <tr>
-                <td colspan="3" style="color: red; text-align: center;">Quý khách vui lòng điền đầy đủ trước khi đặt món ăn.!!!</td>
-            </tr>
-        </table>
+        <form action="">
+            <table>
+                <tr>
+                    <th colspan="3" style="color: red;">
+                        <h1 >Thông Tin Khách Hàng</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><label for="customer_name">Tên Khách Hàng: </label></td>
+                    <td><input type="text" name="customer_name" id="customer_name" style="width: 300px;"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><label for="status">Tình Trạng: </label></td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="1">Khách Hàng Mới</option>
+                            <option value="1">Khách Hàng VIP</option>
+                            <option value="1">Khách Hàng Thành Viên</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="id_customer">Mã KH: </label>
+                        <input type="text" name="id_customer" id="id_customer" style="width: 100px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4" style="vertical-align: top; text-align: center;"><label for="khu">Chọn Khu: </label></td>
+                    <td>
+                        <input type="radio" name="khu" id="khachsan">
+                        <label for="khachsan">Khách Sạn</label>
+                        <input type="radio" name="khu" id="karaoke">
+                        <label for="karaoke">Karaoke</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id_rom">Số Phòng: </label>
+                        <input type="text" name="id_rom" id="id_rom" style="width: 153px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="khu" id="bar_club">
+                        <label for="bar_club">Bar Club</label>
+                        <input type="radio" name="khu" id="coffee">
+                        <label for="coffee">Coffee</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="so_ban">Số Bàn: </label>
+                        <input type="text" name="so_ban" id="so_ban">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><label for="request"></label>Yêu Cầu: </td>
+                    <td>
+                        <textarea name="request" id="request" rows="3" style="width: 302px; height: 53px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: center;"><input type="button" value="GỬI THÔNG TIN"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="color: red; text-align: center;">Quý khách vui lòng điền đầy đủ trước khi đặt món ăn.!!!</td>
+                </tr>
+            </table>
+        </form>
+        
     </div>
     
 

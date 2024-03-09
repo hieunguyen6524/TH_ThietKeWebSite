@@ -21,3 +21,10 @@ td{
     width: 400px;
     height: 100px;
 }
+input{
+    border: 1px solid rgb(101, 161, 230);
+}
+select{
+    border: 1px solid rgb(101, 161, 230);
+
+}

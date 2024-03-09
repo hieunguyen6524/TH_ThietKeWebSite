@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form 8</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,28 +17,29 @@
             </div>
             <div class="radio_box">
                 <img src="images/icon-nk-atstore.svg" alt="">
-                <label for="nh_tt"><p>NHẬN HÀNG TẠI NHÀ</p></label>
+                <label for="nh_tt"><p>NHẬN HÀNG TẠI TRUNG TÂM</p></label>
                 <input type="radio" name="nhanhang" id="nh_tt">
             </div>
         </div>
+
         <div class="radio_container">
             <div class="text_box">
-                <label for="hoten">Họ và tên <span>(*)</span></label><br>
+                <label for="hoten" class="lable_text">Họ và tên <span>(*)</span></label><br>
                 <input type="text" name="hoten" id="hoten">
             </div>
             <div class="text_box">
-                <label for="sdt">Số điện thoại <span>(*)</span></label><br>
+                <label for="sdt" class="lable_text">Số điện thoại <span>(*)</span></label><br>
                 <input type="number" name="sdt" id="sdt">
             </div>
         </div>
 
         <div class="radio_container">
             <div class="text_box">
-                <label for="email">Email</span></label><br>
+                <label for="email" class="lable_text">Email</label><br>
                 <input type="text" name="email" id="email">
             </div>
-            <div class="text_box">
-                <label for="tinh_tp">Tỉnh/ Thành Phố <span>(*)</span></label>
+            <div class="text_box" >
+                <label for="tinh_tp" class="lable_text">Tỉnh/ Thành Phố <span>(*)</span></label><br>
                 <select name="tinh_tp" id="tinh_tp">
                     <optgroup label="Chọn tỉnh/ Thành phố của bạn">
                         <option value="An Giang">An Giang</option>
@@ -65,7 +66,7 @@
                         <option value="Hà Giang">Hà Giang</option>
                         <option value="Hà Nam">Hà Nam</option>
                         <option value="Hà Nội">Hà Nội</option>
-                        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                        <option value="Hồ Chí Minh" selected>Hồ Chí Minh</option>
                         <option value="Hà Tĩnh">Hà Tĩnh</option>
                         <option value="Hải Dương">Hải Dương</option>
                         <option value="Hải Phòng">Hải Phòng</option>
@@ -111,7 +112,7 @@
 
         <div class="radio_container">
             <div class="text_box">
-                <label for="quan_huyen">Quận/ Huyện <span>(*)</span></label>
+                <label for="quan_huyen" class="lable_text">Quận/ Huyện <span>(*)</span></label><br>
                 <select name="quan_huyen" id="quan_huyen">
                     <optgroup label="Chọn Quận/ Huyện">
                         <optgroup label="TP. Hồ Chí Minh">
@@ -142,7 +143,7 @@
                 </select>
             </div>
             <div class="text_box">
-                <label for="phuong_xa">Phường/ Xã <span>(*)</span></label>
+                <label for="phuong_xa" class="lable_text">Phường/ Xã <span>(*)</span></label><br>
                 <select name="phuong_xa" id="phuong_xa">
                     <optgroup label="Chọn phường/ Xã">
                         <optgroup label="Quận 1">
@@ -169,8 +170,9 @@
                 </select>
             </div>
         </div>
+
         <div class="dc">
-            <label for="dc">Số nhà/ Tên đường <span>(*)</span></label><br>
+            <label for="dc" class="lable_text">Số nhà/ Tên đường <span>(*)</span></label><br>
             <input type="text" name="dc" id="dc">
         </div>
         <div>
@@ -178,10 +180,12 @@
             <label for="check1">Sử dụng thông tin này để đăng ký tài khoản mua hàng</label>
         </div>
         <br>
+
         <div class="comment">
-            <label for="comment">Để lại lời nhắn cho Nguyễn Kim</label><br>
-            <input type="text" name="comment" id="comment">
+            <label for="comment" class="lable_text">Để lại lời nhắn cho Nguyễn Kim</label><br>
+            <textarea name="comment" id="comment" rows="3" style="width: 815px; height: 102px;" ></textarea>
         </div>
+        
         <h4>Chọn hình thức thanh toán</h4>
         <div class="radio_container">
             <div class="radio_box_mini">
