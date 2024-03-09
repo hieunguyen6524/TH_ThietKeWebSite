@@ -14,7 +14,7 @@ body{
 }
 
 .radio_box{
-    background-color: #ccc;
+    border: 1px solid black;
     display: flex;
     width: 400px;
     height: 60px;
