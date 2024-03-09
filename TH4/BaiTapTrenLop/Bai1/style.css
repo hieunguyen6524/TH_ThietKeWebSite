@@ -3,10 +3,7 @@
     width: fit-content;
     margin: 10px auto;
 }
-table,td,th{
-    /* border: 2px solid red; */
-    /* border-collapse: collapse; */
-}
+
 th{
     text-align: center;
     color: blue;
