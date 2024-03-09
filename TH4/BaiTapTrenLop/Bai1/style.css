@@ -1,5 +1,5 @@
 .border{
-    border: 2px solid black;
+    box-shadow: 2px 1px grey;
     width: fit-content;
     margin: 10px auto;
 }
