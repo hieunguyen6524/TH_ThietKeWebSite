@@ -23,6 +23,7 @@ ctx.arc(200,0,150,0,1*Math.PI)
 ctx.strokeStyle="blue";
 ctx.stroke();
 //hufi 2021
+ctx.beginPath();
 ctx.font=("30px Arial");
 ctx.fillStyle="black";
 ctx.fillText("HUFI 2021",130,60);
