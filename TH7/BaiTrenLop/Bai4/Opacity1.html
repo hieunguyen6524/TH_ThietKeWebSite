@@ -5,23 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opacity 1</title>
     <style>
+        .container{
+            margin: 0px auto;
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
         img{
-            width: 33%;
             float: left;
             opacity: 0.5;
+            width: 400px;
+            height: 350px;
+            transition: width 2s, height 2s;
         }
         img:hover{
             opacity: 1;
-        }
-        .hinhanh{
-            width: 100%;
+            width: 40%;
             height: 500px;
         }
+
     </style>
 </head>
 <body>
-    <p>MINH HỌA THUỘC TÍNH OPACIITY</p>
-    <div class="hinhanh">
+    <p style="text-align: center;">MINH HỌA THUỘC TÍNH OPACIITY</p>
+
+    <div class="container">
         <img src="images/hanoi.jpg" alt="">
         <img src="images/hue.jpg" alt="">
         <img src="images/saigon.jpg" alt="">

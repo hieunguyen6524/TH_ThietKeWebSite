@@ -1,0 +1,23 @@
+.grid-container{
+    display: grid;
+    width: fit-content;
+    margin: 10px auto;
+    /* tao 4 cot voi kich thuoc auto */
+    grid-template-columns: auto auto auto; 
+    /* Khoang cac giua cac cot */
+    gap: 10px;
+}
+.grid-container > div{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px;
+}
+img{
+    width: 290px;
+    height: 175px;
+    transition: width 1s, height 1s;
+}
+img:hover{
+    width: 380px;
+    height: 228px;
+}
