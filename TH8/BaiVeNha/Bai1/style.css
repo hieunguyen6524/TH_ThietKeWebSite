@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.grid-container > div{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px;
+}
+.logo{
+    width: 238px;
+    height: 238px;
+}
+p{
+    margin: 5px auto;
+}
+.giatien{
+    font-weight: bolder;
+    color: orange;
+    font-size: larger;
+}
+.giatien span{
+    text-decoration: underline;
+}
+button{
+    border: none;
+}

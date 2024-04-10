@@ -1,0 +1,39 @@
+
+.menu{
+    width: 150px;
+    /* height: 50%; */
+    background-color: black;
+}
+#sidebar{
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#sidebar :hover{
+    background-color: rgb(128, 128, 128,0.5);
+}
+#sidebar li{
+    border-bottom: 3px solid white;
+    line-height: 20px;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+#sidebar li a{
+    color: white;
+    text-decoration: none;
+}
+#sidebar ul.sidebar-container{
+    position: absolute;
+    top:0px;
+    left: 150px;
+    width: 150px;
+    list-style-type: none;
+    background-color: #808080;
+    padding: 0;
+    display: none;
+}
+#sidebar li:hover>ul.sidebar-container{
+    display: block;
+}
