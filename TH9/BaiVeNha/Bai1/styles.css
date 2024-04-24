@@ -1,0 +1,85 @@
+.grid-container{
+    display: grid;
+    border: 1px solid black;
+    width: 900px;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: 'header header header header header header'
+                        'menu main main main sidebar sidebar'
+                        'footer footer footer footer footer footer';
+}
+.header{
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+    grid-area: header;
+}
+.menu{
+    background-color: gray;
+    grid-area: menu;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    border-bottom: 1px solid white;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.main{
+    border:  1px solid black;
+    grid-area: main;
+    
+}
+.main a{
+    color: black;
+    font-weight: bolder;
+}
+.sidebar{
+    background-color: blue;
+    font-size: 18px;
+    padding: 10px;
+    grid-area: sidebar;
+    width: min-content;
+    text-align: justify;
+}
+.sidebar p{
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.sidebar span{
+    color: white;
+}
+.sidebar table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: 0 auto;
+
+}
+.sidebar table tr td{
+    color: white;
+    /* font-size: 20px; */
+    border: 1px solid white;
+    padding: 0 30px 0 30px;
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+    line-height: 5px;
+    background-color: rgb(209, 200, 200);
+}
