@@ -28,6 +28,10 @@
 }
 .menu ul li{
     display: block;
+    margin: 1px;
+    background-color:#D5DBDB;
+    border-radius: 10px;
+
 }
 .menu ul li:hover{
     background-color: #28B463;

@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+}
+.header{
+    margin-left: 5px;
+}
+.title{
+    width: fit-content;
+    margin-left: 20px;
+}
+.title h1{
+    color: red;
+}
+.title h2{
+    color: blue;
+}
+.title hr{
+    border: 2px solid orangered;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 136, 255);
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+
+}
+.menu ul li{
+    padding-left: 20px;
+    display: block;
+
+}
+.menu ul li :hover{
+    color: yellow;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: flex;
+    padding: 5px;
+}
+
+
+#search{
+    border: 1px solid black;
+    width: max-content;
+    border-radius: 28px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+}
+#search input{
+    font-size: 16px;
+    width: 300px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+#search button{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.banner img{
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr repeat(2,1fr);
+    gap: 10px;
+    width: 1170px;
+    margin: 20px auto 0 auto;
+}
+.grid-container h3{
+    color: rgb(0, 136, 255);
+    margin-left: 50px;
+    /* margin: 20px 0 0 10px; */
+}
+.grid-container hr{
+    border-color: rgb(0, 136, 255);
+}
+.grid-container a{
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+}
+.grid-container img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(0, 136, 255);
+}
+.grid-container ul{
+    list-style-type: square;
+    color: red;
+}
+.tttb{
+    grid-column: 1/span 3;
+}
+.tttb h3{
+    grid-column: 1/span 3;
+    position: relative;
+    background-color: rgb(0, 136, 255);
+    padding: 9px;
+    display: inline;
+    color: white;
+    margin: 0;
+    min-width: 120px;
+}
+.tttb h3::before{
+    content: "";
+    position: absolute;
+    border: 20px solid rgb(0, 136, 255);
+    top: -1px;
+    left: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+
+}
+.mini-title
+{
+    padding: 10px;
+}
+
+
+.footer{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 136, 255);;
+}
+.hoctap{
+    grid-column: 1/span 3;
+    grid-row: 8;
+    background-color: white;
+}
+.doitac{
+    grid-column: 1/span 3;
+    grid-row: 10;
+    background-color: white;
+}
+
+.image-container {
+    overflow: hidden;
+    display: flex;
+  }
+
+  .image-list {
+    display: flex;
+  }
+
+  .image-list {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .image-container .image-list:nth-child(1) {
+    animation: slide1 20s linear infinite;
+    animation-delay: calc(20s * -1);
+  }
+
+  /* animation cho danh sách thứ 2 để delay thời gian gấp đôi danh sách thứ 1 để nó nối ngay sau danh sách thứ 1 */
+  .image-container .image-list:nth-child(2) {
+    animation: slide2 20s linear infinite;
+    animation-delay: calc(20s / -2);
+  }
+
+  .image-list img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    border: none;
+
+  }
+
+  @keyframes slide1 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes slide2 {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+}
