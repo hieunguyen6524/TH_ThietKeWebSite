@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="F1" method="post">
+        <table>
+            <tr>
+                <td colspan="2">THÔNG TIN NGƯỜI GỬI</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ng">*Người gửi</label>
+                </td>
+                <td>
+                    <input type="text" id="ng" name="ng" placeholder="Nhập họ tên">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">*E-Mail</label>
+                </td>
+                <td>
+                    <input type="text" id="email" name="email" placeholder="Nhập Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">*Điện thoại</label>
+                </td>
+                <td>
+                    <input type="number" name="phone" id="phone" placeholder="Nhập phone">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="2">THÔNG TIN NGƯỜI NHẬN</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nn">*Người nhận</label>
+                </td>
+                <td>
+                    <input type="text" name="nn" id="nn" placeholder="Nhập họ và tên">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone1">*Điện thoại</label>
+                </td>
+                <td>
+                    <input type="number" name="phone1" id="phone1" placeholder="Nhập phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="diachi">*Địa chỉ</label>
+                </td>
+                <td>
+                    <input type="text" name="diachi" id="diachi" placeholder="Nhập địa chỉ">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tp">*Tỉnh/TP</label>
+                </td>
+                <td>
+                    <select name="tp" id="tp">
+                        <option value="TP.HCM nội thành">TP.HCM nội thành</option>
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Huế">Huế</option>
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Quảng Ninh">Quảng Ninh</option>
+                        <option value="Cần Thơ">Cần Thơ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="quan">*Quận</label>
+                </td>
+                <td>
+                    <select name="quan" id="quan">
+                        <option value="Quận 1">Quận 1</option>
+                        <option value="Quận 2">Quận 2</option>
+                        <option value="Quận 3">Quận 1</option>
+                        <option value="Quận Tân Phú">Quận Tân Phú</option>
+                        <option value="Quận Tân Bình">Quận Tân Bình</option>
+                        <option value="Quận Thủ Đức">Quận Thủ Đức</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <center>
+            <input type="button" value="GỬI THÔNG TIN" onclick="XuatThongTin()">
+        </center>
+    </form>
+    <h2>
+        THÔNG TIN BẠN VỪA NHẬP
+    </h2>
+    <div>
+        <table>
+            <tr>
+                <td colspan="2"><h3>THÔNG TIN NGƯỜI GỬI</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    *Người gửi
+                </td>
+                <td id="TenNG" class="dd"> </td>
+            </tr>
+            <tr>
+                <td>
+                    *E-Mail
+                </td>
+                <td id="EmailNG" class="dd"> </td>
+            </tr>
+            <tr>
+                <td>
+                    *Điện thoại
+                </td>
+                <td id="PhoneNG" class="dd"> </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td colspan="2"><h3>THÔNG TIN NGƯỜI NHẬN</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    *Người nhận
+                </td>
+                <td id="TenNN" class="dd"> </td>
+            </tr>
+            <tr>
+                <td>
+                    *Điện thoại
+                </td>
+                <td id="PhoneNN" class="dd"> </td>
+            </tr>
+            <tr>
+                <td>
+                    *Địa chỉ
+                </td>
+                <td id="DiaChiNN" class="dd"> </td>
+            </tr>
+            <tr>
+                <td>
+                    *Tỉnh/TP
+                </td>
+                <td id="TPNN" class="dd"> </td>
+            </tr>
+            <tr>
+                <td>
+                    *Quận
+                </td>
+                <td id="QuanNN" class="dd"> </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        function XuatThongTin()
+        {
+            document.getElementById("TenNG").innerHTML=document.forms["F1"]["ng"].value;
+            document.getElementById("EmailNG").innerHTML=document.forms["F1"]["email"].value;
+            document.getElementById("PhoneNG").innerHTML=document.forms["F1"]["phone"].value;
+            document.getElementById("TenNN").innerHTML=document.forms["F1"]["nn"].value;
+            document.getElementById("PhoneNN").innerHTML=document.forms["F1"]["phone1"].value;
+            document.getElementById("DiaChiNN").innerHTML=document.forms["F1"]["diachi"].value;
+            document.getElementById("TPNN").innerHTML=document.forms["F1"]["tp"].value;
+            document.getElementById("QuanNN").innerHTML=document.forms["F1"]["quan"].value;
+
+            
+        }
+    </script>
+</body>
+</html>
